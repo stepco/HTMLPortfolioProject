@@ -1,0 +1,17 @@
+header{	
+	color: black;
+	text-align: center;
+	position: relative;
+	font-weight: 20;
+}
+header::before {
+  content: "";
+  background: url("https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg");
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
